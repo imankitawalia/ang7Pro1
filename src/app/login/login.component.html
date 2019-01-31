@@ -1,0 +1,8 @@
+<form (ngSubmit)="login()">
+  Email : <input type="email" placeholder="test@email.com" name="emailId" [(ngModel)]="emailId" [required]="true"/>
+  <br>
+  Password : <input type="password" placeholder="*********" name="password" [(ngModel)]="password" [required]="true" />
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
